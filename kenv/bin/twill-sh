@@ -1,0 +1,9 @@
+#!/home/cece/important/codes/flask/flask-kit/kenv/bin/python2
+# EASY-INSTALL-ENTRY-SCRIPT: 'twill==0.9','console_scripts','twill-sh'
+__requires__ = 'twill==0.9'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('twill==0.9', 'console_scripts', 'twill-sh')()
+)
